@@ -1,0 +1,64 @@
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 32px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+/* Header title */
+
+.app-header h1 {
+  margin: 0;
+
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: -0.3px;
+
+  color: #0f172a;
+}
+
+.app-header p {
+  margin: 5px 0 0;
+
+  font-size: 14px;
+  color: #64748b;
+}
+
+
+/* Salesforce connection status */
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 7px 12px;
+
+  border: 1px solid #dcfce7;
+  border-radius: 999px;
+
+  background: #f0fdf4;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  color: #166534;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+
+  box-shadow: 0 0 0 3px #dcfce7;
+}

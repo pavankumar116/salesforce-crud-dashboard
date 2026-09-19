@@ -1,0 +1,111 @@
+/* Dashboard */
+.dashboard {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.dashboard-title {
+  margin-bottom: 28px;
+}
+
+.dashboard-title h2 {
+  margin-bottom: 6px;
+  font-size: 28px;
+  font-weight: 650;
+  letter-spacing: -0.5px;
+  color: #0f172a;
+}
+
+.dashboard-title p {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Object selector */
+.dashboard label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.dashboard select {
+  min-width: 240px;
+  padding: 10px 38px 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1e293b;
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dashboard select:hover {
+  border-color: #94a3b8;
+}
+
+.dashboard select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* Records section */
+.dashboard section {
+  width: max-content;
+  min-width: 100%;
+  margin-top: 28px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow:
+    0 2px 4px rgba(15, 23, 42, 0.03),
+    0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.dashboard section h2 {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 650;
+  color: #0f172a;
+}
+
+.dashboard section p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Create button */
+.dashboard section > div > button {
+  margin-bottom: 20px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.1s ease;
+}
+
+.dashboard section > div > button:hover {
+  background: #1d4ed8;
+  box-shadow:
+    0 4px 8px rgba(37, 99, 235, 0.2);
+}
+
+.dashboard section > div > button:active {
+  transform: translateY(1px);
+}

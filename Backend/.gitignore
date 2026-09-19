@@ -1,0 +1,7 @@
+#excluding files but not env example 
+
+node_modules/
+.env 
+.env.*
+!.env.example
+*.log
