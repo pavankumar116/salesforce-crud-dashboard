@@ -9,6 +9,8 @@ dotenv.config();
 
 const app = express();
 
+app.set("trust proxy", 1)
+
 // Allow the frontend to send requests with the session cookie.
 app.use(
   cors({
@@ -25,6 +27,11 @@ app.use(
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+    },
   })
 );
 
